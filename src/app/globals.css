@@ -24,3 +24,9 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Red asterisk shown after the label of every required form field. */
+.required-label::after {
+  content: " *";
+  color: #ef4444;
+}

@@ -39,3 +39,20 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+
+# .NET build files
+**/bin/
+**/obj/
+
+# Database configuration and local secrets
+StudentRegistration.Api/appsettings.json
+StudentRegistration.Api/appsettings.Development.json
+
+# .NET build files
+**/bin/
+**/obj/
+
+# Keep database passwords out of GitHub
+StudentRegistration.Api/appsettings.json
+StudentRegistration.Api/appsettings.Development.json
